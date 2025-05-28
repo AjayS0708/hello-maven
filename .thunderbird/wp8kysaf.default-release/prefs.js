@@ -33,7 +33,7 @@ user_pref("datareporting.policy.dataSubmissionPolicyNotifiedTime", "174065342965
 user_pref("extensions.activeThemeID", "default-theme@mozilla.org");
 user_pref("extensions.blocklist.pingCountVersion", 0);
 user_pref("extensions.databaseSchema", 35);
-user_pref("extensions.getAddons.cache.lastUpdate", 1741339512);
+user_pref("extensions.getAddons.cache.lastUpdate", 1748423670);
 user_pref("extensions.getAddons.databaseSchema", 6);
 user_pref("extensions.lastAppBuildId", "20241211204238");
 user_pref("extensions.lastAppVersion", "115.18.0");
@@ -71,6 +71,6 @@ user_pref("services.settings.last_update_seconds", 1741328568);
 user_pref("services.settings.thunderbird.hijack-blocklists.last_check", 1741328568);
 user_pref("services.settings.thunderbird.search-config.last_check", 1741328568);
 user_pref("services.settings.thunderbird.url-classifier-skip-urls.last_check", 1741328568);
-user_pref("toolkit.startup.last_success", 1741339481);
+user_pref("toolkit.startup.last_success", 1748423668);
 user_pref("toolkit.telemetry.cachedClientID", "61b53654-754f-4deb-aa13-bbe38bf8c050");
 user_pref("toolkit.telemetry.previousBuildID", "20241211204238");

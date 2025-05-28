@@ -836,3 +836,53 @@ sudo nano hosts.ini
 cd ..
 ls
 cd Desktop/
+sudo nano deploy.yaml
+cd
+sudo apt update
+sudo apt upgrade -y
+ansible --version
+nano hosts.ini
+nano setup.yml
+ansible-playbook -i hosts.ini setup.yml
+sudo update-alternatives --config java  
+mvn archetype:generate -DgroupId=com.example -DartifactId=hello-maven -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+cd hello-maven
+mvn package
+mvn clean
+ls
+cd
+sudo systemctl stop jenkins
+sudo systemctl disable jenkins
+sudo apt remove --purge jenkins -y
+sudo deluser --remove-home jenkins
+sudo delgroup jenkins
+sudo rm -rf /var/lib/jenkins /etc/jenkins /var/log/jenkins /usr/lib/jenkins /var/cache/jenkins /run/jenkins
+sudo systemctl daemon-reload
+dpkg -l | grep jenkins
+sudo update-alternatives --config java
+sudo apt update
+sudo apt install openjdk-21-jdk -y
+sudo wget -O /usr/share/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/" | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt update
+sudo apt install jenkins -y
+sudo systemctl status jenkins
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+sudo apt update && sudo apt install git -y
+git --version
+git config --global user.name "AjayS0708"
+git config --global user.email "ajaysriram070804@gmail.com"
+git config --global init.defaultBranch main
+ssh-keygen -t rsa -b 4096 -C "ajaysriram070804@gmail.com" -f ~/.ssh/id_rsa -N ""
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+curl -H "Authorization: token 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"      -d '{"name":"hello-maven", "private":false}'      https://api.github.com/user/repos
+echo "# hello-maven" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AjayS0708/hello-maven.git
+git push -u origin main

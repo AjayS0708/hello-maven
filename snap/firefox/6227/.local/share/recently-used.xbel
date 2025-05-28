@@ -63,4 +63,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/student-devops/Downloads/rssAll.atom" added="2025-05-28T08:37:22.544387Z" modified="2025-05-28T08:37:22.544390Z" visited="2025-05-28T08:37:22.544387Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/atom+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2025-05-28T08:37:22.544388Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
