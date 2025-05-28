@@ -1,0 +1,79 @@
+{
+  "appInfo" : {
+    "build" : "243.24978.46",
+    "buildDate" : "2025-02-11T14:39:00Z[UTC]",
+    "productCode" : "IC",
+    "generated" : "2025-02-24T15:41:20.255655952Z",
+    "os" : "Linux 6.8.0-52-generic",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+8-b631.39"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 11,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "exp2",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Module 'exp2' (all roots)\" with changes in: \"Module 'exp2' (java, java, resources)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 12003239,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 1158290,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 10455559,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 45154,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2025-02-24T15:41:20.171964462Z",
+      "updatingEnd" : "2025-02-24T15:41:20.185965221Z",
+      "totalWallTimeWithPauses" : 14000759,
+      "wallTimeOnPause" : 250031,
+      "wasInterrupted" : false,
+      "totalWallTimeWithoutPauses" : 13750728
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 5,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 1
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "Module 'exp2' (all roots)",
+      "numberOfScannedFiles" : 5,
+      "numberOfSkippedFiles" : 1,
+      "numberOfFilesForIndexing" : 1,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 811109,
+      "totalOneThreadTimeWithPauses" : 6966695,
+      "iterationAndScannersApplicationTime" : 534030,
+      "filesCheckTime" : 6214205,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 45154,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'exp2' (java, java, resources)",
+      "numberOfScannedFiles" : 0,
+      "numberOfSkippedFiles" : 5,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 0,
+      "totalOneThreadTimeWithPauses" : 5036544,
+      "iterationAndScannersApplicationTime" : 624260,
+      "filesCheckTime" : 4241354,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    } ]
+  }
+}

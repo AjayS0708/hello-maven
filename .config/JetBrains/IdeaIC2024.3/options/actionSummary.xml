@@ -1,0 +1,46 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Undo">
+      <i c="4" l="1740411950899" />
+    </e>
+    <e n="CodeFloatingToolbar.GotoNextMenu">
+      <i c="1" l="1740411941215" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="19" l="1740411265120" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="1" l="1740412310534" />
+    </e>
+    <e n="EditorEnter">
+      <i c="5" l="1740412297122" />
+    </e>
+    <e n="EditorPaste">
+      <i c="6" l="1740412167284" />
+    </e>
+    <e n="NewProject">
+      <i c="1" l="1740412143534" />
+    </e>
+    <e n="OpenFile">
+      <i c="1" l="1740731100060" />
+    </e>
+    <e n="PasteMultiple">
+      <i c="1" l="1740411893705" />
+    </e>
+    <e n="SaveAll">
+      <i c="5" l="1740412313829" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="4" l="1740411652464" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="1" l="1740733901373" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="1" l="1740412141009" />
+    </e>
+    <e n="com.intellij.ui.dsl.builder.components.SegmentedButtonAction">
+      <i c="3" l="1740411667634" />
+    </e>
+  </component>
+</application>

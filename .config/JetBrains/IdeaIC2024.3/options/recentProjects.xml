@@ -1,0 +1,42 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/exp2">
+          <value>
+            <RecentProjectMetaInfo frameTitle="exp2 – pom.xml" projectWorkspaceId="2tUfeZQPZeJH1pRwRLfAiqLMNLF">
+              <option name="activationTimestamp" value="1740412164199" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-243.24978.46" />
+              <option name="buildTimestamp" value="1739284740000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="70" y="27" width="1530" height="873" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1740411670120" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/exptwo">
+          <value>
+            <RecentProjectMetaInfo frameTitle="exptwo – pom.xml" projectWorkspaceId="2tUgeOrjZv4a5NkxxlB3c2MOL3r">
+              <option name="activationTimestamp" value="1740991137653" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-243.24978.46" />
+              <option name="buildTimestamp" value="1739284740000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="70" y="27" width="1530" height="873" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1740412164400" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/IdeaProjects/exptwo" />
+    <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
+  </component>
+</application>

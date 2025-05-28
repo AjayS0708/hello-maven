@@ -1,0 +1,44 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background (optional, for visibility) -->
+  <!--  <rect width="200" height="200" fill="white"/>-->
+  <defs>
+    <linearGradient id="letterGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="00%" stop-color="#800080" /> <!-- Violet -->
+      <!--      <stop offset="70%" stop-color="#ADD8E6"/> &lt;!&ndash; Violet &ndash;&gt;-->
+      <stop offset="100%" stop-color="#000000"/> <!-- Black -->
+    </linearGradient>
+    <linearGradient id="letterGradient2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#BABAB"/> <!-- Violet -->
+      <stop offset="40%" stop-color="#ADD8E6"/> <!-- Violet -->
+      <stop offset="60%" stop-color="#800080"/> <!-- Violet -->
+      <!--      <stop offset="70%" stop-color="#ADD8E6"/> &lt;!&ndash; Violet &ndash;&gt;-->
+      <stop offset="100%" stop-color="#000000"/> <!-- Black -->
+    </linearGradient>
+
+    <!-- Radial Gradient for Portal Glow -->
+    <radialGradient id="portalGradient" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="rgba(128, 0, 128, 0.8)"/> <!-- Violet Center -->
+      <stop offset="100%" stop-color="rgba(0, 0, 0, 0)"/> <!-- Fades to Transparent -->
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="100" cy="138" rx="90" ry="14" fill="url(#portalGradient)" opacity="0.8"/>
+
+  <!-- Base "A" 3D Shape (Front Face) -->
+  <polygon points="60,140 100,7.5 140,140 120,135 100,50 80,135" fill="url(#letterGradient2)" opacity="0.6"/>
+  <polygon points="60,140 100,7.5 60 130" fill="grey" opacity="0.2"/>
+  <polygon points="140,140 100,7.5 140 130" fill="grey" opacity="0.1"/>
+
+  <!-- Base "T" 3D Shape (Back Face) -->
+  <polygon points="65,2.5 145,22.5 145,42.5 115,35 115,135 95,130 95,30 65,22.5" fill="black" opacity="0.5"/>
+
+  <!-- "T" 3D Depth Effect (Side Faces) -->
+  <polygon points="60,7.5 65,2.5 145,22.5 140,27.5"  fill="grey" opacity="0.2"/>
+  <polygon points=" 145,22.5 145,42.5 140,47.5 140,27.5"  fill="grey" opacity="0.1"/>
+  <polygon points="145,42.5 140,47.5 110,40 115,35"  fill="black" opacity="0.5"/>
+  <polygon points="110,40 110,140  115,135 115,35"  fill="grey" opacity="0.1"/>
+
+  <!-- Base "T" 3D Shape (Front Face) -->
+  <polygon points="60,7.5 140,27.5 140,47.5 110,40 110,140 90,135 90,35 60,27.5" fill="url(#letterGradient2)" opacity="0.9"/> <!-- __ -->
+
+</svg>

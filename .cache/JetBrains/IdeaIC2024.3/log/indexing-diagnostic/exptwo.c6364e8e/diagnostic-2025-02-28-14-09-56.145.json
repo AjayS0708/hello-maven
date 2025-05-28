@@ -1,0 +1,95 @@
+{
+  "appInfo" : {
+    "build" : "243.24978.46",
+    "buildDate" : "2025-02-11T14:39:00Z[UTC]",
+    "productCode" : "IC",
+    "generated" : "2025-02-28T08:24:56.145664992Z",
+    "os" : "Linux 6.8.0-52-generic",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+8-b631.39"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 11,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "exptwo",
+    "times" : {
+      "scanningReason" : "changes in: \"Module 'exptwo' (annotations, java, java, resources, test-annotations)\", \"Library Maven: junit:junit:4.13.2 (#1 class roots, #0 source roots)\", \"Library Maven: org.hamcrest:hamcrest-core:1.3 (#1 class roots, #0 source roots)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 651512352,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 284902625,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 365908291,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 11808096,
+      "dumbModeStart" : "2025-02-28T08:24:55.715372431Z",
+      "dumbWallTimeWithPauses" : 429071893,
+      "dumbWallTimeWithoutPauses" : 429071893,
+      "updatingStart" : "2025-02-28T08:24:55.630504022Z",
+      "updatingEnd" : "2025-02-28T08:24:56.144444324Z",
+      "totalWallTimeWithPauses" : 513940302,
+      "wallTimeOnPause" : 465562,
+      "wasInterrupted" : false,
+      "totalWallTimeWithoutPauses" : 513474740
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 3,
+      "numberOfScannedFiles" : 402,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 399
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "Library Maven: junit:junit:4.13.2 (#1 class roots, #0 source roots)",
+      "numberOfScannedFiles" : 354,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 352,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 186875410,
+      "totalOneThreadTimeWithPauses" : 497960117,
+      "iterationAndScannersApplicationTime" : 235900302,
+      "filesCheckTime" : 261891439,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 84967848,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 8075297,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Library Maven: org.hamcrest:hamcrest-core:1.3 (#1 class roots, #0 source roots)",
+      "numberOfScannedFiles" : 47,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 47,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 37347243,
+      "totalOneThreadTimeWithPauses" : 113836193,
+      "iterationAndScannersApplicationTime" : 40934339,
+      "filesCheckTime" : 72749819,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 12272147,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 3732799,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'exptwo' (annotations, java, java, resources, test-annotations)",
+      "numberOfScannedFiles" : 1,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 15494174,
+      "totalOneThreadTimeWithPauses" : 39716042,
+      "iterationAndScannersApplicationTime" : 8067984,
+      "filesCheckTime" : 31267033,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    } ]
+  }
+}
