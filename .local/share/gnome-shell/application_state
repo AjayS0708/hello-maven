@@ -2,9 +2,9 @@
 <application-state>
   <context id="">
     <application id="org.gnome.Nautilus.desktop" score="11" last-seen="1748423692"/>
-    <application id="firefox_firefox.desktop" score="5964.5" last-seen="1748423909"/>
-    <application id="libreoffice-writer.desktop" score="3" last-seen="1748421096"/>
-    <application id="org.gnome.Terminal.desktop" score="95" last-seen="1748423916"/>
+    <application id="firefox_firefox.desktop" score="5983.5" last-seen="1748424131"/>
+    <application id="libreoffice-writer.desktop" score="6" last-seen="1748424169"/>
+    <application id="org.gnome.Terminal.desktop" score="110" last-seen="1748424227"/>
     <application id="thunderbird.desktop" score="0" last-seen="1748423671"/>
     <application id="gnome-control-center.desktop" score="460172916.5" last-seen="1745291447"/>
     <application id="update-manager.desktop" score="0" last-seen="1748419943"/>

@@ -136,7 +136,7 @@ user_pref("privacy.history.custom", true);
 user_pref("privacy.purge_trackers.date_in_cookie_database", "0");
 user_pref("privacy.purge_trackers.last_purge", "1747284792922");
 user_pref("privacy.sanitize.clearOnShutdown.hasMigratedToNewPrefs3", true);
-user_pref("privacy.sanitize.pending", "[{\"id\":\"shutdown\",\"itemsToClear\":[\"cache\",\"formdata\",\"cookiesAndStorage\"],\"options\":{}},{\"id\":\"newtab-container\",\"itemsToClear\":[],\"options\":{}}]");
+user_pref("privacy.sanitize.pending", "[]");
 user_pref("privacy.sanitize.sanitizeOnShutdown", true);
 user_pref("services.settings.blocklists.addons-bloomfilters.last_check", 1748423490);
 user_pref("services.settings.blocklists.gfx.last_check", 1748423490);
